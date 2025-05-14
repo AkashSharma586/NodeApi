@@ -1,0 +1,40 @@
+/* 
+#verify Api  
+
+http://localhost:3000/api/otp/verify
+{
+    "phone": "9999999999",
+    "otp":"9827"
+  }
+    
+#send Api  
+
+http://localhost:3000/api/otp/send
+{
+  "phone": "9999999999",
+}
+
+
+
+// Job Api 
+
+List Api 
+http://localhost:3000/api/jobs/list
+{
+  "id":"",
+  "title": "",
+  "company": "",
+  "salary": ""
+}
+
+Create New Job 
+http://localhost:3000/api/jobs/create
+{
+   "title": "",
+  "company": "",
+  "salary": ""
+}
+
+
+
+*/
