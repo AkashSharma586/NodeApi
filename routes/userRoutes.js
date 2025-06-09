@@ -1,29 +1,4 @@
 
-
-
-// const express = require("express");
-// const User = require("../models/User");
-// const router = express.Router();
-// const jwt = require("jsonwebtoken");
-
-
-// const token = jwt.sign({ id: user._id }, "your_jwt_secret", { expiresIn: "7d" });
-// // Create user
-// router.post("/", async (req, res) => {
-//   const user = new User(req.body);
-//   await user.save();
-//   res.send(user);
-// });
-
-// // Get all users
-// router.get("/", async (req, res) => {
-//   const users = await User.find();
-//   res.send(users);
-// });
-
-// module.exports = router;
-
-
 const express = require("express");
 const User = require("../models/User");
 const jwt = require("jsonwebtoken");

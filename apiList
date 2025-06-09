@@ -1,6 +1,5 @@
 /* 
 #verify Api  
-
 http://localhost:3000/api/otp/verify
 {
     "phone": "9999999999",
@@ -8,7 +7,6 @@ http://localhost:3000/api/otp/verify
   }
     
 #send Api  
-
 http://localhost:3000/api/otp/send
 {
   "phone": "9999999999",
